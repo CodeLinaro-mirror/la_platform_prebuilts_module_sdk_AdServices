@@ -148,6 +148,7 @@ Landroid/adservices/adselection/AdSelectionOutcome;->equals(Ljava/lang/Object;)Z
 Landroid/adservices/adselection/AdSelectionOutcome;->getAdSelectionId()J,public-api,system-api,test-api
 Landroid/adservices/adselection/AdSelectionOutcome;->getComponentAdUris()Ljava/util/List;,public-api,system-api,test-api
 Landroid/adservices/adselection/AdSelectionOutcome;->getRenderUri()Landroid/net/Uri;,public-api,system-api,test-api
+Landroid/adservices/adselection/AdSelectionOutcome;->getWinningSeller()Landroid/adservices/common/AdTechIdentifier;,public-api,system-api,test-api
 Landroid/adservices/adselection/AdSelectionOutcome;->hasOutcome()Z,public-api,system-api,test-api
 Landroid/adservices/adselection/AdSelectionOutcome;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/adservices/adselection/AdSelectionOverrideCallback$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
@@ -289,6 +290,7 @@ Landroid/adservices/adselection/ReportEventRequest$Builder;->setInputEvent(Landr
 Landroid/adservices/adselection/ReportEventRequest$Builder;->setKey(Ljava/lang/String;)Landroid/adservices/adselection/ReportEventRequest$Builder;,public-api,system-api,test-api
 Landroid/adservices/adselection/ReportEventRequest$Builder;->setReportingDestinations(I)Landroid/adservices/adselection/ReportEventRequest$Builder;,public-api,system-api,test-api
 Landroid/adservices/adselection/ReportEventRequest;->FLAG_REPORTING_DESTINATION_BUYER:I,public-api,system-api,test-api
+Landroid/adservices/adselection/ReportEventRequest;->FLAG_REPORTING_DESTINATION_COMPONENT_SELLER:I,public-api,system-api,test-api
 Landroid/adservices/adselection/ReportEventRequest;->FLAG_REPORTING_DESTINATION_SELLER:I,public-api,system-api,test-api
 Landroid/adservices/adselection/ReportEventRequest;->getAdSelectionId()J,public-api,system-api,test-api
 Landroid/adservices/adselection/ReportEventRequest;->getData()Ljava/lang/String;,public-api,system-api,test-api
@@ -1423,7 +1425,6 @@ Landroid/app/sdksandbox/SharedPreferencesUpdate$1;->newArray(I)[Ljava/lang/Objec
 Landroid/app/sdksandbox/SharedPreferencesUpdate;->describeContents()I,public-api,system-api,test-api
 Landroid/app/sdksandbox/SharedPreferencesUpdate;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
 Landroid/app/sdksandbox/flags/CustomFeatureFlags$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Landroid/app/sdksandbox/flags/CustomFeatureFlags$$ExternalSyntheticLambda10;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/app/sdksandbox/flags/CustomFeatureFlags$$ExternalSyntheticLambda1;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/app/sdksandbox/flags/CustomFeatureFlags$$ExternalSyntheticLambda2;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/app/sdksandbox/flags/CustomFeatureFlags$$ExternalSyntheticLambda3;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
@@ -1474,7 +1475,6 @@ Lcom/android/adservices/flags/CustomFeatureFlags$$ExternalSyntheticLambda19;->te
 Lcom/android/adservices/flags/CustomFeatureFlags$$ExternalSyntheticLambda1;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/adservices/flags/CustomFeatureFlags$$ExternalSyntheticLambda20;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/adservices/flags/CustomFeatureFlags$$ExternalSyntheticLambda21;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Lcom/android/adservices/flags/CustomFeatureFlags$$ExternalSyntheticLambda22;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/adservices/flags/CustomFeatureFlags$$ExternalSyntheticLambda2;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/adservices/flags/CustomFeatureFlags$$ExternalSyntheticLambda3;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/adservices/flags/CustomFeatureFlags$$ExternalSyntheticLambda4;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
