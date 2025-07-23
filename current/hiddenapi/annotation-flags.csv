@@ -1,6 +1,5 @@
 Lcom/android/adservices/flags/CustomFeatureFlags;->adIdCacheEnabled()Z,unsupported
 Lcom/android/adservices/flags/CustomFeatureFlags;->adextDataServiceApisEnabled()Z,unsupported
-Lcom/android/adservices/flags/CustomFeatureFlags;->adidEnableSynchronousAdIdApi()Z,unsupported
 Lcom/android/adservices/flags/CustomFeatureFlags;->adservicesEnableConsentDataMigrationApi()Z,unsupported
 Lcom/android/adservices/flags/CustomFeatureFlags;->adservicesEnablePerModuleOverridesApi()Z,unsupported
 Lcom/android/adservices/flags/CustomFeatureFlags;->adservicesEnablementCheckEnabled()Z,unsupported
@@ -25,7 +24,6 @@ Lcom/android/adservices/flags/CustomFeatureFlags;->topicsEncryptionEnabled()Z,un
 Lcom/android/adservices/flags/CustomFeatureFlags;->uiEnableSetAdsPersonalizationStatus()Z,unsupported
 Lcom/android/adservices/flags/FeatureFlags;->adIdCacheEnabled()Z,unsupported
 Lcom/android/adservices/flags/FeatureFlags;->adextDataServiceApisEnabled()Z,unsupported
-Lcom/android/adservices/flags/FeatureFlags;->adidEnableSynchronousAdIdApi()Z,unsupported
 Lcom/android/adservices/flags/FeatureFlags;->adservicesEnableConsentDataMigrationApi()Z,unsupported
 Lcom/android/adservices/flags/FeatureFlags;->adservicesEnablePerModuleOverridesApi()Z,unsupported
 Lcom/android/adservices/flags/FeatureFlags;->adservicesEnablementCheckEnabled()Z,unsupported
@@ -50,7 +48,6 @@ Lcom/android/adservices/flags/FeatureFlags;->topicsEncryptionEnabled()Z,unsuppor
 Lcom/android/adservices/flags/FeatureFlags;->uiEnableSetAdsPersonalizationStatus()Z,unsupported
 Lcom/android/adservices/flags/FeatureFlagsImpl;->adIdCacheEnabled()Z,unsupported
 Lcom/android/adservices/flags/FeatureFlagsImpl;->adextDataServiceApisEnabled()Z,unsupported
-Lcom/android/adservices/flags/FeatureFlagsImpl;->adidEnableSynchronousAdIdApi()Z,unsupported
 Lcom/android/adservices/flags/FeatureFlagsImpl;->adservicesEnableConsentDataMigrationApi()Z,unsupported
 Lcom/android/adservices/flags/FeatureFlagsImpl;->adservicesEnablePerModuleOverridesApi()Z,unsupported
 Lcom/android/adservices/flags/FeatureFlagsImpl;->adservicesEnablementCheckEnabled()Z,unsupported
@@ -75,7 +72,6 @@ Lcom/android/adservices/flags/FeatureFlagsImpl;->topicsEncryptionEnabled()Z,unsu
 Lcom/android/adservices/flags/FeatureFlagsImpl;->uiEnableSetAdsPersonalizationStatus()Z,unsupported
 Lcom/android/adservices/flags/Flags;->adIdCacheEnabled()Z,unsupported
 Lcom/android/adservices/flags/Flags;->adextDataServiceApisEnabled()Z,unsupported
-Lcom/android/adservices/flags/Flags;->adidEnableSynchronousAdIdApi()Z,unsupported
 Lcom/android/adservices/flags/Flags;->adservicesEnableConsentDataMigrationApi()Z,unsupported
 Lcom/android/adservices/flags/Flags;->adservicesEnablePerModuleOverridesApi()Z,unsupported
 Lcom/android/adservices/flags/Flags;->adservicesEnablementCheckEnabled()Z,unsupported

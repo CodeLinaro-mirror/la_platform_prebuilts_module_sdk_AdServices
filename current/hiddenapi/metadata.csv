@@ -1,7 +1,6 @@
 signature
 |Lcom/android/adservices/flags/CustomFeatureFlags;->adIdCacheEnabled()Z|
 |Lcom/android/adservices/flags/CustomFeatureFlags;->adextDataServiceApisEnabled()Z|
-|Lcom/android/adservices/flags/CustomFeatureFlags;->adidEnableSynchronousAdIdApi()Z|
 |Lcom/android/adservices/flags/CustomFeatureFlags;->adservicesEnableConsentDataMigrationApi()Z|
 |Lcom/android/adservices/flags/CustomFeatureFlags;->adservicesEnablePerModuleOverridesApi()Z|
 |Lcom/android/adservices/flags/CustomFeatureFlags;->adservicesEnablementCheckEnabled()Z|
@@ -26,7 +25,6 @@ signature
 |Lcom/android/adservices/flags/CustomFeatureFlags;->uiEnableSetAdsPersonalizationStatus()Z|
 |Lcom/android/adservices/flags/FeatureFlags;->adIdCacheEnabled()Z|
 |Lcom/android/adservices/flags/FeatureFlags;->adextDataServiceApisEnabled()Z|
-|Lcom/android/adservices/flags/FeatureFlags;->adidEnableSynchronousAdIdApi()Z|
 |Lcom/android/adservices/flags/FeatureFlags;->adservicesEnableConsentDataMigrationApi()Z|
 |Lcom/android/adservices/flags/FeatureFlags;->adservicesEnablePerModuleOverridesApi()Z|
 |Lcom/android/adservices/flags/FeatureFlags;->adservicesEnablementCheckEnabled()Z|
@@ -51,7 +49,6 @@ signature
 |Lcom/android/adservices/flags/FeatureFlags;->uiEnableSetAdsPersonalizationStatus()Z|
 |Lcom/android/adservices/flags/FeatureFlagsImpl;->adIdCacheEnabled()Z|
 |Lcom/android/adservices/flags/FeatureFlagsImpl;->adextDataServiceApisEnabled()Z|
-|Lcom/android/adservices/flags/FeatureFlagsImpl;->adidEnableSynchronousAdIdApi()Z|
 |Lcom/android/adservices/flags/FeatureFlagsImpl;->adservicesEnableConsentDataMigrationApi()Z|
 |Lcom/android/adservices/flags/FeatureFlagsImpl;->adservicesEnablePerModuleOverridesApi()Z|
 |Lcom/android/adservices/flags/FeatureFlagsImpl;->adservicesEnablementCheckEnabled()Z|
@@ -76,7 +73,6 @@ signature
 |Lcom/android/adservices/flags/FeatureFlagsImpl;->uiEnableSetAdsPersonalizationStatus()Z|
 |Lcom/android/adservices/flags/Flags;->adIdCacheEnabled()Z|
 |Lcom/android/adservices/flags/Flags;->adextDataServiceApisEnabled()Z|
-|Lcom/android/adservices/flags/Flags;->adidEnableSynchronousAdIdApi()Z|
 |Lcom/android/adservices/flags/Flags;->adservicesEnableConsentDataMigrationApi()Z|
 |Lcom/android/adservices/flags/Flags;->adservicesEnablePerModuleOverridesApi()Z|
 |Lcom/android/adservices/flags/Flags;->adservicesEnablementCheckEnabled()Z|
